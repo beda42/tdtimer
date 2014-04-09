@@ -16,8 +16,8 @@ Firefox
 
 To install TDtimer into Firefox, you need the `Greasemonkey extension 
 <https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/>`_. After
-installing Greasemonkey, just download the file `tdtimer.user.js` and open
-it in Firefox using `File`-`Open File`. You will be asked for confirmation
+installing Greasemonkey, just download the file ``tdtimer.user.js`` and open
+it in Firefox using ``File``-``Open File``. You will be asked for confirmation
 of the installation, which is normal.
 
 Chrome
@@ -25,9 +25,9 @@ Chrome
 
 Starting with some particular version, Chrome developers decided to protect
 users from themselves and started blocking user scripts. However, there is still
-a way to easily install TDtimer in Chrome. Open `Settings`-`Extensions` and
-activate the developer mode. You can then drag&drop the `tdtimer.user.js` script
-onto the `Extensions` page to install it. Again, you will be asked for
+a way to easily install TDtimer in Chrome. Open ``Settings``-``Extensions`` and
+activate the developer mode. You can then drag&drop the ``tdtimer.user.js`` script
+onto the ``Extensions`` page to install it. Again, you will be asked for
 permission to do so.
 
 Other browsers
@@ -46,8 +46,8 @@ After installation, all is ready, just add some duration info to your tasks
 in Todoist.
 
 To add duration information to a task, just give the duration in hours in
-square brackets as part of the task text. For example `Replace Windows XP with
-Linux [0.75]`. Please not that the number uses a standard decimal notation, not
+square brackets as part of the task text. For example ``Replace Windows XP with
+Linux [0.75]``. Please not that the number uses a standard decimal notation, not
 time notation (e.g. [0:45]). I believe that anyone intelligent enough to use
 task management can handle conversion between minutes and parts of hour and this
 way it is possible to use TDtimer for other purposes as well (such as assigning
