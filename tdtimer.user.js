@@ -46,12 +46,16 @@ function list_all_items() {
         lis = document.evaluate(".//li[starts-with(@id,'item_')]//td/span[@class='text']", ul, null, XPathResult.ANY_TYPE, null);
         li = lis.iterateNext();
         while (li) {
-            text = li.childNodes[0].data;
-            debug(text);
-            match = time_finder.exec(text);
-            if (match && match[1]) {
-                total += parseFloat(match[1]);
-                debug(match[1]);
+	    for (i=0; i<li.childNodes.length; i++) {
+                if (li.childNodes[i].data != null) {
+                    text = li.childNodes[i].data;
+                    debug(text);
+                    match = time_finder.exec(text);
+                    if (match && match[1]) {
+                        total += parseFloat(match[1]);
+                        debug(match[1]);
+                    }
+                }
             }
             li = lis.iterateNext();
         }
