@@ -47,7 +47,7 @@ in Todoist.
 
 To add duration information to a task, just give the duration in hours in
 square brackets as part of the task text. For example ``Replace Windows XP with
-Linux [0.75]``. Please not that the number uses a standard decimal notation, not
+Linux [0.75]``. Please note that the number uses a standard decimal notation, not
 time notation (e.g. [0:45]). I believe that anyone intelligent enough to use
 task management can handle conversion between minutes and parts of hour and this
 way it is possible to use TDtimer for other purposes as well (such as assigning
