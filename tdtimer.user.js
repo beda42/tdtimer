@@ -46,7 +46,7 @@ function list_all_items() {
         lis = document.evaluate(".//li[starts-with(@id,'item_')]//td/span[@class='text']", ul, null, XPathResult.ANY_TYPE, null);
         li = lis.iterateNext();
         while (li) {
-            text = li.childNodes[0].data;
+            text = li.innerText || li.textContent; // first for IE, rest for browsers
             debug(text);
             match = time_finder.exec(text);
             if (match && match[1]) {
