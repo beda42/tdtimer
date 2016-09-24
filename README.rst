@@ -14,7 +14,7 @@ Installation
 Firefox
 =========
 
-To install TDtimer into Firefox, you need the `Greasemonkey extension 
+To install TDtimer into Firefox, you need the `Greasemonkey extension
 <https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/>`_. After
 installing Greasemonkey, just download the file ``tdtimer.user.js`` and open
 it in Firefox using ``File``-``Open File``. You will be asked for confirmation
@@ -39,7 +39,7 @@ Greasemonkey scripts in your browser.
 
 
 ---------------
-How to use it 
+How to use it
 ---------------
 
 After installation, all is ready, just add some duration info to your tasks
@@ -63,7 +63,8 @@ How to report errors
 -----------------------
 
 I have created TDtimer for my own purposes and it works well for me. If you find
-an error, you can let me know at <beda(at)zirael.org> or fix it and put in 
-somewhere online (github is ideal for this).
+an error, you can let me know at <beda(at)zirael.org> or fix it and send me a merge
+request on GitHub. I cannot guarantee that I will fix any errors in the future
+or provide any support - the software is offered as is.
 
-© 2014 WTFPL – Do What the Fuck You Want to Public License.
+© 2014-2016 WTFPL – Do What the Fuck You Want to Public License.
