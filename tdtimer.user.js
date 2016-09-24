@@ -6,7 +6,7 @@
 // @description Todoist timer
 // @include     https://todoist.com/*
 // @include     http://todoist.com/*
-// @version     2
+// @version     3
 // @grant       none
 // ==/UserScript==
 
@@ -43,7 +43,7 @@ function list_all_items() {
         debug(ul);
         total = 0;
         // find all list items
-        lis = document.evaluate(".//li[starts-with(@id,'item_')]//td/span[@class='text']", ul, null, XPathResult.ANY_TYPE, null);
+        lis = document.evaluate(".//li[starts-with(@id,'item_')]//td/span[starts-with(@class,'text')]", ul, null, XPathResult.ANY_TYPE, null);
         li = lis.iterateNext();
         while (li) {
             text = li.innerText || li.textContent; // first for IE, rest for browsers
